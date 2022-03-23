@@ -1,0 +1,13 @@
+[
+  {
+    "origin": ["*"],
+    "method": ["GET"],
+    "responseHeader": ["Content-Type"],
+    "maxAgeSeconds": 3600
+  }
+]
+
+//install gsutil & gcloudSDK
+//https://cloud.google.com/storage/docs/gsutil_install#mac
+//then
+//gsutil cors set cors.json gs://cryptoquilt.appspot.com
